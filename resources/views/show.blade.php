@@ -6,6 +6,16 @@
     <div class="label label-danger">{{$todo->due}}</div>
     <hr>
     <p>{{$todo->content}}</p>
+    <form method="post" action="/todo/{{$todo->id}}" >
+        @csrf
+        @method('DELETE')
+        <button type="submit" class="btn btn-danger mt-2">Delete</button>
+
+    </form>
     <a href="/todo/{{$todo->id}}/edit" class="btn btn-info mt-2">Edit</a>
+
+
+
+
 
 @endsection
