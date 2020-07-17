@@ -4,7 +4,7 @@
             <a class="navbar-brand" href="/">Next and Back</a>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="/">Home</a></li>
             <li><a href="todo/create">Create</a></li>
             <li><a href="#">Link</a></li>
         </ul>
